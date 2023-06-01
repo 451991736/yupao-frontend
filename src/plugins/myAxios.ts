@@ -2,7 +2,7 @@ import axios,{AxiosInstance} from "axios";
 
 // Set config defaults when creating the instance
 const myAxios : AxiosInstance = axios.create({
-    baseURL: 'http://localhost:8080/api',
+    baseURL: 'http://62.234.46.195:8102/api',
 });
 
 myAxios.defaults.withCredentials = true; // 允许携带 cookie
